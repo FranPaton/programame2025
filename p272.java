@@ -5,15 +5,14 @@ public class p272 {
 	public static void casoDePrueba() {
 		StringBuilder numeroB6 = new StringBuilder();
 		int numero = in.nextInt();
-		while (numero > 0) {
-			numeroB6.append(numero % 6);
-			numero /= 6;
+		int numAux = numero;
+		while (numAux >= 6) {
+			numeroB6.append(numAux % 6);
+			numAux /= 6;
 		}
+		numeroB6.append(numAux);
 		System.out.println(numeroB6.reverse());
-	
-	// TU CÓDIGO AQUÍ
-
-	} // casoDePrueba
+	}
 	
 	public static void main(String[] args) {
 		in = new java.util.Scanner(System.in);

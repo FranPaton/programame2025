@@ -1,4 +1,3 @@
-
 public class p764 {
 
 	static java.util.Scanner in;

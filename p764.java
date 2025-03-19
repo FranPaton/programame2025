@@ -6,7 +6,6 @@ public class p764 {
     public static boolean casoDePrueba() {
         int numCasos = in.nextInt();
         if (numCasos == 0) {
-        	//System.out.println("fin");
             return false;
         }
         else {

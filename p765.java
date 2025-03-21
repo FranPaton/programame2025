@@ -36,7 +36,6 @@ public class p765 {
 					ganadorInfantil = "empate";
 				}
 			}
-		
 			System.out.println(ganadorInfantil +  " " + ganadorAdulto) ;		
 			return true;
 		}
